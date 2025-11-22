@@ -16,7 +16,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-2. Install runtime dependencies(ifyou don't have them already):
+2. Install runtime dependencies(if you don't have them already):
 
 ```zsh
 .venv/bin/python3 -m pip install --upgrade pip setuptools wheel
@@ -29,7 +29,7 @@ Run the script
 .venv/bin/python3 smart_kitchen_robot_planner.py
 ```
 
-This should print summary info for BFS and A* and create `bfs_graph.png` and `astar_graph.png` in the same folder.
+This should print summary info for BFS and A* and create `bfs_graph.png` and `astar_graph.png` in the same folder (if images are already on the folder from previous debugging, they don't get recreated).
 
 Windows instructions (PowerShell and cmd)
 -------------------------------------
@@ -69,7 +69,7 @@ PowerShell / cmd:
 python smart_kitchen_robot_planner.py
 ```
 
-This will print the BFS / A* summaries and create `bfs_graph.png` and `astar_graph.png` in the project folder.
+This will print the BFS / A* summaries and create `bfs_graph.png` and `astar_graph.png` in the project folder(if images are already on the folder from previous debugging, they don't get recreated).
 
 Debugging on Windows
 --------------------
