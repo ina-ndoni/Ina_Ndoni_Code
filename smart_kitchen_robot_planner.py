@@ -1,6 +1,5 @@
 import networkx as nx
 import matplotlib.pyplot as plt
-import logging
 from queue import Queue, PriorityQueue
 import time
 
@@ -16,9 +15,6 @@ actions = {
 
 initial_state = (0,0,0,0,0,0)
 goal_state = (1,1,1,1,1,1)
-
-# configure basic logging for easier debugging
-logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 def is_goal(state):
     return state == goal_state
